@@ -9,7 +9,7 @@ JSON – Para estructurar y manejar contenido dinámico.
 ## Instalación
 
 1.- Clona el repositorio:
-git clone https://github.com/usuario/tu-proyecto.git
+git clone https://github.com/ErwinHwarts/Erwin-Hwarts.git
 
 2.- Instala las dependencias:
 npm install
