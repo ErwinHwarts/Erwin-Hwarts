@@ -1,0 +1,20 @@
+---
+const contactItems = [
+  { icon: "📍", text: "Rosario Norte 660, oficina 20, Las Condes, Santiago." },
+  { icon: "📞", text: "+56 9 6919 0722" },
+  { icon: "✉️", text: "contacto@teslachile.cl" }
+];
+---
+
+<div class="space-y-6">
+  <h3 class="text-2xl font-semibold mb-4">Información de contacto</h3>
+  <p class="text-gray-400">Estamos disponibles para ayudarte en todo momento.</p>
+  <ul class="space-y-4">
+    {contactItems.map(item => (
+      <li class="flex items-center space-x-3">
+        <span class="text-yellow-400 text-xl">{item.icon}</span>
+        <span>{item.text}</span>
+      </li>
+    ))}
+  </ul>
+</div>

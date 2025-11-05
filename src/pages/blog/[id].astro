@@ -1,0 +1,36 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import blogData from '../../data/blog.json';
+
+export async function getStaticPaths() {
+  return blogData.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+---
+
+<Layout title={post.titulo}>
+  <section class="bg-gray-950 text-white py-20 px-6 min-h-screen">
+    <div class="max-w-3xl mx-auto">
+      <img src={post.imagen} alt={post.titulo} class="w-full h-80 object-cover rounded-xl mb-8" />
+      <h1 class="text-4xl font-bold mb-4">{post.titulo}</h1>
+      <p class="text-gray-300 leading-relaxed mb-8">{post.contenido}</p>
+      
+      {post.video && (
+        <iframe 
+          src={post.video} 
+          title="YouTube video" 
+          class="w-full rounded-xl mb-8"
+          style="height: 500px;"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen
+        ></iframe>
+      )}
+      
+      <a href="/blog" class="inline-block mt-10 text-yellow-400 hover:underline">← Volver al blog</a>
+    </div>
+  </section>
+</Layout>

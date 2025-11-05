@@ -1,0 +1,50 @@
+[
+    {
+        "id": "tesla-llega-a-chile",
+        "titulo": "Tesla llega a Chile: estos son los modelos y sus precios",
+        "imagen": "https://acnews.blob.core.windows.net/imgnews/medium/NAZ_6379a86af02d456ca6856d030bc7bf06.webp",
+        "resumen": "Tesla abre operaciones en Chile con modelos que prometen revolucionar el mercado automotriz eléctrico.",
+        "contenido": "Estos precios corresponden a versiones de entrada, son entregas nuevas, y pueden variar según versión, impuestos, equipamiento, región, etc.",
+        "video": "https://www.youtube.com/embed/wV5ZXjXC_YY"
+    },
+    {
+        "id": "tesla-en-quillota",
+        "titulo": "Tesla se luce como colectivo en Quillota",
+        "imagen": "https://tsportline.com/cdn/shop/articles/enap-photo-6178166e05686_1024x.webp?v=1710278743",
+        "resumen": "Un Tesla Model 3 RWD ahora opera como taxi colectivo en la Región de Valparaíso.",
+        "contenido": "En Quillota, Región de Valparaíso, comenzó a operar un Tesla Model 3 RWD como colectivo, perteneciente a la flota de Taxis Colectivos Los Gallos.",
+        "video": "https://www.youtube.com/embed/1Xa57WE478M?si=y0NKs5sEqPEwngyb"
+    },
+    {
+        "id": "cybertruck-chile",
+        "titulo": "MÁS DE 154 MILLONES le costó a chileno traer un Cybertruck de Tesla",
+        "imagen": "https://mobilityportal.lat/wp-content/uploads/2024/12/portada-cyber.jpg",
+        "resumen": "Un empresario chileno hizo historia al traer el primer Cybertruck al país.",
+        "contenido": "José Alvo, un empresario chileno de La Araucanía, es quien trajo una Tesla Cybertruck a Chile.",
+        "video": "https://www.youtube.com/embed/6prAyNww1_k?si=cRqupNnIIV7nosGi"
+    },
+    {
+        "id": "tesla-entrega-autonoma",
+        "titulo": "¿Autos que se manejan solos?: Tesla manejó solo hacia su dueño",
+        "imagen": "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2021/11/prueba-autopilot-tesla-fallos-2540431.jpg",
+        "resumen": "Un Model Y salió desde la Gigafactory de Texas (Austin) y viajó aproximadamente 30 minutos hasta la casa de su nuevo dueño.",
+        "contenido": "El modelo fue un Model Y que salió desde la Gigafactory de Texas (Austin) y viajó aproximadamente 30 minutos hasta la casa de su nuevo dueño.",
+        "video": "https://www.youtube.com/embed/W-ttUxXg8GM?si=R38c3bxqxZG54RSG"
+    },
+    {
+        "id": "tesla-diner-hollywood",
+        "titulo": "Elon Musk inauguró el \"Tesla Dinner\" para cargar autos eléctricos",
+        "imagen": "https://media.es.wired.com/photos/688246b4ebab1f00838d8ef6/16:9/w_1280,c_limit/GettyImages-2226425544.jpg",
+        "resumen": "Se inauguró en Hollywood un restaurante 'Tesla Diner' retro-futurista, que combina un autocine con estaciones de Supercargadores.",
+        "contenido": "El 'Tesla Diner' se inauguró el 21 de julio de 2025 en el Santa Monica Boulevard, Hollywood. El innovador lugar combina un restaurante estilo diner retro-futurista, un autocine, servicio drive-in y múltiples estaciones de Supercargadores para vehículos eléctricos.",
+        "video": "https://www.youtube.com/embed/RNY4jaBfMsg"
+    },
+    {
+        "id": "robo-frustrado-tesla-chile",
+        "titulo": "Delincuentes fracasan intentado robar auto tesla en Chile: Tecnología impidió el robo del vehículo",
+        "imagen": "https://portaltrabajo.cl/wp-content/uploads/2024/06/Imagen-Referencial-FU-02-2024-06-28T161800.154.jpg",
+        "resumen": "Un grupo de al menos cinco delincuentes fracasó en su intento de robar un Tesla mediante una violenta encerrona en Chicureo, Colina.",
+        "contenido": "El incidente ocurrió en Chicureo, comuna de Colina (Región Metropolitana). Un grupo de al menos cinco delincuentes armados cometió una violenta encerrona con la intención de robar un vehículo Tesla. Sin embargo, la tecnología del auto impidió que lograran su objetivo.",
+        "video": "https://www.youtube.com/embed/BJ8XFaPQPBI"
+    }
+]

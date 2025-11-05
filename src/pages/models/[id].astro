@@ -1,0 +1,49 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Video from '../../components/Video.astro';
+import videosData from '../../data/videos.json';
+
+// Importa TODOS los videos de forma estática
+import videoModelS from '../../videos/modelS.webm';
+import videoModel3 from '../../videos/model3.webm';
+import videoCT from '../../videos/CT.webm';
+import videoY from '../../videos/Y.webm';
+import videoPowerwall from '../../videos/Powerwall.webm';
+
+// Mapea los videos con tipo explícito
+const videoMap: Record<string, string> = {
+  'model-s': videoModelS,
+  'model-3': videoModel3,
+  'model-ct': videoCT,
+  'model-y': videoY,
+  'powerwall': videoPowerwall
+};
+
+export async function getStaticPaths() {
+  return videosData.map((video) => ({
+    params: { id: video.id },
+    props: { video },
+  }));
+}
+
+const { video } = Astro.props;
+const videoSrc = videoMap[video.id];
+---
+
+<Layout title={video.title}>
+  <section class="bg-black h-screen w-screen text-center overflow-hidden relative">
+    <header class="z-30 relative">
+      <h2 class="text-white pt-40 text-[40px] font-medium">{video.title}</h2>
+      <p class="text-white text-sm">Programe una prueba de conducción hoy mismo</p>
+    </header>
+
+    <a href="/contacto"
+       class="fixed bottom-10 left-1/2 -translate-x-1/2 bg-transparent border border-white text-white font-semibold px-6 py-3 rounded-lg transition hover:bg-white hover:text-black z-50">
+      Prueba de conducción
+    </a>
+
+    <div class="absolute top-0 bottom-0 h-full w-full z-10">
+      <Video src={videoSrc} class="object-cover w-full h-full" />
+    </div>
+  </section>
+</Layout>

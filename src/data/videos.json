@@ -1,0 +1,22 @@
+[
+  {
+    "id": "model-s",
+    "title": "Model S"
+  },
+  {
+    "id": "model-3",
+    "title": "Model 3"
+  },
+  {
+    "id": "model-ct",
+    "title": "Cybertruck"
+  },
+  {
+    "id": "model-y",
+    "title": "Model Y"
+  },
+  {
+    "id": "powerwall",
+    "title": "Powerwall"
+  }
+]
